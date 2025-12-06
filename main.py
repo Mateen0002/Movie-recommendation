@@ -6,7 +6,8 @@ import urllib3
 
 API_KEY = "fadfa094648b588a087b9c20b3f192e7"
 
-# ------------------- FIXED FUNCTION -------------------
+# ------------------
+#------------ FIXED FUNCTION -------------------
 def fetch_poster(movie_id):
     url = f"https://api.themoviedb.org/3/movie/{movie_id}?api_key={API_KEY}&language=en-US"
     try:
